@@ -9,18 +9,12 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-# if you are deploying to a custom domain
-# echo 'www.example.com' > CNAME
-
-git init
-git checkout -b main
+# 使用現有的 `gh-pages` 分支來部署
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
-
-# if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:3q-cindy/vue3-practise.git main:gh-pages
+# Push 到 GitHub Pages，確保分支名稱正確
+# 如果要部署到 https://<USERNAME>.github.io/<REPO>，`gh-pages` 分支是正確的
+git push -f origin main:gh-pages
 
 cd -

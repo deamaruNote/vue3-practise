@@ -1,5 +1,5 @@
 {
-  "name": "hello_vue",
+  "name": "vue3-practise",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
