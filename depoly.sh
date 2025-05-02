@@ -11,7 +11,7 @@ cd dist
 
 # 使用現有的 `gh-pages` 分支來部署
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploy' 
 
 # Push 到 GitHub Pages，確保分支名稱正確
 # 如果要部署到 https://<USERNAME>.github.io/<REPO>，`gh-pages` 分支是正確的
